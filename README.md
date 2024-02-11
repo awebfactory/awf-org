@@ -11,10 +11,9 @@
 
 ## AWebFactory.org (Project Flow & Tracker). The Making of
 
-- Each project contains the following items
-  - any item may
-    - include asset attachments)
-    - be ommitted
+- Each project contains any of the items listed below
+  - any item may be ommitted
+  - any item may include asset attachments
 - Attributes
   - `Name`
   - `Short Name`
@@ -25,16 +24,21 @@
 - Assumptions and `Hypotheses`
 - `Business Model Canvas` (BMC)
 - `Lean UX Canvas`
-- Initial Team meeting and `Kick-off` conversation
-  - `Feature List`
+- Initial Team meeting, and `Kick-off` conversation and planning
   - `Design System`
   - `Initial Gantt Chart`
-- `Gantt Chart` (more for registering initial and iteration planning, together with project history, not for deadlines)
-- `Conversations` (project blog, one for each iteration and task)
+  - `Feature List`
+- `Iteration`
+  - `Start date`
+  - `Finish date` (no deadlines, we do WIP)
+  - `User Story` List; the iteration user story backlog based on assigned `Feature List` items
+    - `Card`, `Conversation`, value delivery `Confirmation`
   - `Kanban Board` (at conversation state, time vaulted (kanban on left/top, conversation on right, bottom))
-- `Value Delivery Confirmation` / Improve, Maintain or Pivot decision
-- `Post Mortem`
-- There may be occasional `Blog Posts` related to the project items
+  - `Gantt Chart` (more for registering initial and iteration planning, together with project history, not for deadlines)
+  - `Conversations`
+- `Project Value Delivery Confirmation` / Improve, Maintain or Pivot decision
+- `Project Post Mortem`
+- There may be occasional `Blog Posts` related to the project items: one for each iteration and/or user story. It may optionally include video as attachment.
 
 ### Project Attributes
 
@@ -43,6 +47,10 @@
 - Description:
 - Start date: 2024-02-09
 - Finish date (no deadlines, we do WIP)
+
+### Legacy Inputs
+
+### Assumptions and Hypotheses
 
 ### Business Model Canvas
 
