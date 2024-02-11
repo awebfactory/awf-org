@@ -28,6 +28,8 @@
   - `Design System`
   - `Initial Gantt Chart`
   - `Feature List`
+  - `Architecture`
+  - `Risk List`
 - `Iteration`
   - `Start date`
   - `Finish date` (no deadlines, we do WIP)
