@@ -9,12 +9,67 @@
 
 - commit
 
-```bash
-# site not yet self-documenting
+## AWebFactory.org (Project Flow & Tracker). The Making of
 
+- Each project contains the following items (any item may include asset attachments)
+
+- Attributes
+  - `Name`
+  - `Short Name`
+  - `Description`
+  - `Start date`
+  - `Finish date` (no deadlines, we do WIP)
+- `Legacy inputs`
+- Assumptions and `Hypotheses`
+- `Business Model Canvas` (BMC)
+- `Lean UX Canvas`
+- Initial Team meeting and `Kick-off` conversation
+  - `Feature List`
+  - `Design System`
+  - `Initial Gantt Chart`
+- `Gantt Chart` (more for registering initial and iteration planning, together with project history, not for deadlines)
+- `Conversations` (project blog, one for each iteration and task)
+  - `Kanban Board` (at conversation state, time vaulted (kanban on left/top, conversation on right, bottom))
+- `Value Delivery Confirmation` / Improve, Maintain or Pivot decision
+- `Post Mortem`
+- There may be occasional `Blog Posts` related to the project items
+
+### Project Attributes
+
+- Name: AWebFactory.org (Project Flow & Tracker)
+- Short Name: awf-org
+- Description:
+- Start date: 2024-02-09
+- Finish date (no deadlines, we do WIP)
+
+### Business Model Canvas
+
+```mermaid
+block-beta
+columns 1
+  db(("DB"))
+  blockArrowId6<["&nbsp;&nbsp;&nbsp;"]>(down)
+  block:ID
+    A
+    B["A wide one in the middle"]
+    C
+  end
+  space
+  D
+  ID --> D
+  C --> D
+  style B fill:#969,stroke:#333,stroke-width:4px
 ```
 
-## AWebFactory.org (Project Flow & Tracker). The Making of
+### Lean Ux Canvas
+
+block diagram
+
+### Feature List
+
+table
+
+### Gantt Chart
 
 ```mermaid
 gantt
@@ -27,6 +82,14 @@ gantt
         Task in Another :2014-01-12, 12d
         another task    :24d
 ```
+
+### Design System
+
+### Kanban Board
+
+### Conversations
+
+### Confirmation
 
 - [Repo](https://github.com/awebfactory/awf-org)
 - Staging site
