@@ -11,8 +11,10 @@
 
 ## AWebFactory.org (Project Flow & Tracker). The Making of
 
-- Each project contains the following items (any item may include asset attachments)
-
+- Each project contains the following items
+  - any item may
+    - include asset attachments)
+    - be ommitted
 - Attributes
   - `Name`
   - `Short Name`
