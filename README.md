@@ -76,6 +76,13 @@ block-beta
 another:
 
 ```mermaid
+block-beta
+  a b c
+```
+
+another:
+
+```mermaid
 timeline
     title History of Social Media Platform
     2002 : LinkedIn
