@@ -73,6 +73,18 @@ block-beta
     style B fill:#969,stroke:#333,stroke-width:4px
 ```
 
+another:
+
+```mermaid
+timeline
+    title History of Social Media Platform
+    2002 : LinkedIn
+    2004 : Facebook
+         : Google
+    2005 : Youtube
+    2006 : Twitter
+```
+
 ### Lean Ux Canvas
 
 block diagram
