@@ -58,19 +58,19 @@
 
 ```mermaid
 block-beta
-columns 1
-  db(("DB"))
-  blockArrowId6<["&nbsp;&nbsp;&nbsp;"]>(down)
-  block:ID
-    A
-    B["A wide one in the middle"]
-    C
-  end
-  space
-  D
-  ID --> D
-  C --> D
-  style B fill:#969,stroke:#333,stroke-width:4px
+  columns 1
+    db(("DB"))
+    blockArrowId6<["&nbsp;&nbsp;&nbsp;"]>(down)
+    block:ID
+      A
+      B["A wide one in the middle"]
+      C
+    end
+    space
+    D
+    ID --> D
+    C --> D
+    style B fill:#969,stroke:#333,stroke-width:4px
 ```
 
 ### Lean Ux Canvas
