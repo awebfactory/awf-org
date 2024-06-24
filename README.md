@@ -2,6 +2,19 @@
 
 [![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
 
+## TODO
+
+- [ ] Project content collection (minimum)
+- [ ] Project listing page
+- [ ] Project individual page
+- [ ] Flesh out `project` content collection content model
+- [ ] Initial completion for `project` content collection
+- [ ] Add starlight blog plugin
+- [ ] Publish initial blog posts
+- [ ] Add diagram fields to `project` content collection content model
+
+## Template README:
+
 ```
 npm create astro@latest -- --template starlight/tailwind
 ```
@@ -12,7 +25,7 @@ npm create astro@latest -- --template starlight/tailwind
 
 > 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-## 🚀 Project Structure
+### 🚀 Project Structure
 
 Inside of your Astro + Starlight project, you'll see the following folders and files:
 
@@ -37,7 +50,7 @@ Images can be added to `src/assets/` and embedded in Markdown with a relative li
 
 Static assets, like favicons, can be placed in the `public/` directory.
 
-## 🧞 Commands
+### 🧞 Commands
 
 All commands are run from the root of the project, from a terminal:
 
@@ -50,6 +63,6 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
+### 👀 Want to learn more?
 
 Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
