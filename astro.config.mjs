@@ -6,14 +6,17 @@ import tailwind from '@astrojs/tailwind';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'Docs with Tailwind',
+			title: 'Project Flow & Tracker',
 			// favicon in ./public, vite serves as root
 			favicon: 'cropped-icon170-192x192.png',
 			logo: {
         src: './src/assets/logo.png',
       },
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				twitter: 'https://x.com/a_web_factory',
+				youtube: 'https://www.youtube.com/@awebfactory',
+				facebook: 'https://www.facebook.com/AWebFactory',
+				github: 'https://github.com/awebfactory',
 			},
 			sidebar: [
 				{
