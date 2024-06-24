@@ -7,6 +7,11 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Docs with Tailwind',
+			// favicon in ./public, vite serves as root
+			favicon: 'cropped-icon170-192x192.png',
+			logo: {
+        src: './src/assets/logo.png',
+      },
 			social: {
 				github: 'https://github.com/withastro/starlight',
 			},
