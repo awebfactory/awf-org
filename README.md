@@ -1,223 +1,55 @@
-# awf-org
+# Starlight Starter Kit: Tailwind
 
-> AWebFactory Organization Project Flow & Tracker #BuildInPublic #LearnInPublic open projects platform based on Astro SSR
->
-> As `Project Flow and Tracker` the site will soon be self-documenting.
-> Meanwhile, see below [The Making of](#awebfactoryorg-project-flow--tracker-the-making-of)
+[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
 
-- [ ] Site now self-documenting
-
-- commit
-
-## AWebFactory.org (Project Flow & Tracker). The Making of
-
-- Each project contains any of the items listed below
-  - any item may be ommitted
-  - any item may include asset attachments
-- Attributes
-  - `Name`
-  - `Short Name`
-  - `Description`
-  - `Start date`
-  - `Finish date` (no deadlines, we do WIP)
-- `Legacy inputs`
-- Assumptions and `Hypotheses`
-- `Business Model Canvas` (BMC)
-- `Lean UX Canvas`
-- Initial Team meeting, and `Kick-off` conversation and planning
-  - `Design System`
-  - `Initial Gantt Chart`
-  - `Feature List`
-  - `Architecture`
-  - `Risk List`
-- `Iteration`
-  - `Start date`
-  - `Finish date` (no deadlines, we do WIP)
-  - `User Story` List; the iteration user story backlog based on assigned `Feature List` items
-    - `Card`, `Conversation`, value delivery `Confirmation`
-  - `Kanban Board` (at conversation state, time vaulted (kanban on left/top, conversation on right, bottom))
-  - `Gantt Chart` (more for registering initial and iteration planning, together with project history, not for deadlines)
-  - `Conversations`
-- `Project Value Delivery Confirmation` / Improve, Maintain or Pivot decision
-- `Project Post Mortem`
-- There may be occasional `Blog Posts` related to the project items: one for each iteration and/or user story. It may optionally include video as attachment.
-
-### Project Attributes
-
-- Name: AWebFactory.org (Project Flow & Tracker)
-- Short Name: awf-org
-- Description:
-- Start date: 2024-02-09
-- Finish date (no deadlines, we do WIP)
-
-### Legacy Inputs
-
-### Assumptions and Hypotheses
-
-### Business Model Canvas
-
-```mermaid
-block-beta
-  columns 1
-    db(("DB"))
-    blockArrowId6<["&nbsp;&nbsp;&nbsp;"]>(down)
-    block:ID
-      A["ss"]
-      B["A wide one\n in the middle"]
-      C
-    end
-    space
-    D
-    ID --> D
-    C --> D
-    style B fill:#969,stroke:#333,stroke-width:4px
+```
+npm create astro@latest -- --template starlight/tailwind
 ```
 
-another:
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/starlight/tree/main/examples/tailwind)
+[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/starlight/tree/main/examples/tailwind)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwithastro%2Fstarlight%2Ftree%2Fmain%2Fexamples%2Ftailwind&project-name=my-starlight-docs&repository-name=my-starlight-docs)
 
-```mermaid
-graph TD
-      A["one"]
-      B["A wide one\n in the middle"]
-      C
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+
+## 🚀 Project Structure
+
+Inside of your Astro + Starlight project, you'll see the following folders and files:
+
+```
+.
+├── public/
+├── src/
+│   ├── assets/
+│   ├── content/
+│   │   ├── docs/
+│   │   └── config.ts
+│   └── env.d.ts
+├── astro.config.mjs
+├── package.json
+├── tailwind.config.mjs
+└── tsconfig.json
 ```
 
-plantuml:
+Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
 
-```plantuml
-@startuml
-!theme crt-amber
-Bob -> Alice : hello
-@enduml
-```
+Images can be added to `src/assets/` and embedded in Markdown with a relative link.
 
-mindmap:
+Static assets, like favicons, can be placed in the `public/` directory.
 
-```plantuml
-@startmindmap
-!theme crt-amber
-* Creole on Mindmap
-left side
-**:==Creole
-  This is **bold**
-  This is //italics//
-  This is ""monospaced""
-  This is --stricken-out--
-  This is __underlined__
-  This is ~~wave-underlined~~
---test Unicode and icons--
-  This is <U+221E> long
-  This is a <&code> icon
-  Use image : <img:http://plantuml.com/logo3.png>
-;
-**: <b>HTML Creole
-  This is <b>bold</b>
-  This is <i>italics</i>
-  This is <font:monospaced>monospaced</font>
-  This is <s>stroked</s>
-  This is <u>underlined</u>
-  This is <w>waved</w>
-  This is <s:green>stroked</s>
-  This is <u:red>underlined</u>
-  This is <w:#0000FF>waved</w>
--- other examples --
-  This is <color:blue>Blue</color>
-  This is <back:orange>Orange background</back>
-  This is <size:20>big</size>
-;
-right side
-**:==Creole line
-You can have horizontal line
-----
-Or double line
-====
-Or strong line
-____
-Or dotted line
-..My title..
-Or dotted title
-//and title... //
-==Title==
-Or double-line title
---Another title--
-Or single-line title
-Enjoy!;
-**:==Creole list item
-**test list 1**
-* Bullet list
-* Second item
-** Sub item
-*** Sub sub item
-* Third item
-----
-**test list 2**
-# Numbered list
-# Second item
-## Sub item
-## Another sub item
-# Third item
-;
-@endmindmap
-```
+## 🧞 Commands
 
-another:
+All commands are run from the root of the project, from a terminal:
 
-```mermaid
-timeline
-    title History of Social Media Platform
-    2002 : LinkedIn
-    2004 : Facebook
-         : Google
-    2005 : Youtube
-    2006 : Twitter
-```
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-### Lean Ux Canvas
+## 👀 Want to learn more?
 
-block diagram
-
-### Feature List
-
-table
-
-### Gantt Chart
-
-```mermaid
-gantt
-    title A Gantt Diagram
-    dateFormat YYYY-MM-DD
-    section Section
-        A task          :a1, 2014-01-01, 30d
-        Another task    :after a1, 20d
-    section Another
-        Task in Another :2014-01-12, 12d
-        another task    :24d
-```
-
-### Design System
-
-### Kanban Board
-
-### Conversations
-
-### Confirmation
-
-- [Repo](https://github.com/awebfactory/awf-org)
-- Staging site
-- Production site
-
-### Scaffolding the site
-
-- Created 2024-02-09 using my own [Mini Astro 4 Starter](https://github.com/victorkane/mini-astro-4-starter) 2024-02-09
-- see initial commits
-
-## Ref (Best Practices)
-
-> Wherever possible I have tried to follow Web Dev Engineering best practices, as exemplified by the following resources (any errors or ommisions my own):
-
-- [Astro Docs](https://docs.astro.build/en/getting-started/)
-  - [Astro Docs. SSR Adapters](https://docs.astro.build/en/guides/server-side-rendering/)
-  - [Astro Docs. Dynamic Routes (SSG and SSR modes)](https://docs.astro.build/en/guides/routing/)
-- [Brad Traversy (Traversy Media) astro-blog ssr example](https://github.com/bradtraversy/astro-blog)
-- [Chris Pennington (Coding in Public) YT 2023-08-23 Choosing between SSR, SSG, and dynamic rendering in Astro](video https://youtu.be/aIHRjloFASU?si=_QdqdoTqUnn5dQi8)
-- [Kevin Zuniga Cuellar kevinzunigacuellar / astro-supabase example](https://github.com/kevinzunigacuellar/astro-supabase)
+Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
