@@ -11,8 +11,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-personal
 
+# docs
+personal/
 
 # environment variables
 .env
